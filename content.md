@@ -6,6 +6,8 @@ With this step, I opened the terminal and logged into my ieng6 account.
 **Keys pressed:**
 
 ssh cs15lsp23am@ieng6.ucsd.edu, ```<enter>```
+
+![Image](step 4.png)
   
 # Step 5: Clone your fork of the repository
 
@@ -14,6 +16,8 @@ With this step, I cloned the repository by using command ``` git clone ```. (For
 **Keys pressed:**
   
 git clone git@github.com:a2jensen/lab7.git, ```<enter>```
+
+![Image](step 55.png)
   
 # Step 6: Run tests demonstrating they fail
   
@@ -23,10 +27,14 @@ With this step, I compiled and executed the files but I got the error ```testMer
 
 ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java, then <enter>```
 ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests, then <enter>```
+
+![Image](step 66.png)
   
 # Step 7: Fix the failing test
   
 With this step, I fixed the error on ListExamples.java by using vim. The error was to change ```index1``` to ```index2``` in ```result.add(list2.get(index2))```
+
+![Image](step 7.png)
   
 **Keys pressed:**
 
@@ -37,6 +45,8 @@ vim ListExamples.java, then <enter>
 # Step 8: Run the tests showing that they succeed
 
 With this step, I used commands ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` and ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests``` to execute ListExamplesTests.
+  
+![Image](step 8.png)
 
 **Keys pressed:**
   
@@ -52,4 +62,5 @@ With this step, I add ListExamples.java by using the ```git add``` command. I th
 git add "ListExamples.java", then ```<enter>```,
 git commit -m “commit file”, then ```<enter>```,
 git push origin main, then ```<enter>```
-  
+
+![Image](step 99.png)
